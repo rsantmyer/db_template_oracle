@@ -7,8 +7,9 @@ plus additional common Oracle object directories such as `views`, `grants`,
 `synonyms`, and `database_links`.
 
 Use this when you want a lightweight starting point for organizing Oracle
-database source files. To turn this into a dbpm package, add or generate a
-`dbpm.yaml` manifest.
+database source files. When creating a repository from this template, update
+`dbpm.yaml` and replace the placeholder package name `change_me` before
+installing or publishing the package.
 
 Directory structure:
 ```text
