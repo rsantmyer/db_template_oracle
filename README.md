@@ -11,6 +11,7 @@ database source files. To turn this into a dbpm package, add or generate a
 `dbpm.yaml` manifest.
 
 Directory structure:
+```text
 /database_links
 /deployment_manifests
 /docs
@@ -26,6 +27,7 @@ Directory structure:
 /tests
 /types
 /views
+```
 
 `.gitkeep` files are placeholders so Git keeps empty directories. Remove them
 once a directory contains source files.
